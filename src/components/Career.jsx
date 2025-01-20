@@ -290,7 +290,7 @@ const Career = () => {
                 background: "#ffffff",
                 borderRadius: "20px",
                 padding: "30px",
-                border:"2px solid black",
+                border: "2px solid black",
                 boxShadow: "5px 3.5px 2px black",
               }}
             >
@@ -300,8 +300,8 @@ const Career = () => {
                   color: "#333",
                   fontSize: "40px",
                   textAlign: "center",
-                  fontWeight:"700",
-                  lineHeight:"70px"
+                  fontWeight: "700",
+                  lineHeight: "70px",
                 }}
               >
                 Ready To Partner With Us?
@@ -316,8 +316,8 @@ const Career = () => {
                     style={{
                       border: "1px solid #ccc",
                       borderRadius: "5px",
-                      fontSize:"16px",
-                      fontWeight:"500"
+                      fontSize: "16px",
+                      fontWeight: "500",
                     }}
                   />
                 </Form.Group>
@@ -330,8 +330,8 @@ const Career = () => {
                     style={{
                       border: "1px solid #ccc",
                       borderRadius: "5px",
-                      fontSize:"16px",
-                      fontWeight:"500"
+                      fontSize: "16px",
+                      fontWeight: "500",
                     }}
                   />
                 </Form.Group>
@@ -345,8 +345,8 @@ const Career = () => {
                     style={{
                       border: "1px solid #ccc",
                       borderRadius: "5px",
-                      fontSize:"16px",
-                      fontWeight:"500"
+                      fontSize: "16px",
+                      fontWeight: "500",
                     }}
                   />
                 </Form.Group>
@@ -360,8 +360,8 @@ const Career = () => {
                     style={{
                       border: "1px solid #ccc",
                       borderRadius: "5px",
-                      fontSize:"16px",
-                      fontWeight:"500"
+                      fontSize: "16px",
+                      fontWeight: "500",
                     }}
                   />
                 </Form.Group>
@@ -374,8 +374,8 @@ const Career = () => {
                     style={{
                       border: "1px solid #ccc",
                       borderRadius: "5px",
-                      fontSize:"16px",
-                      fontWeight:"500"
+                      fontSize: "16px",
+                      fontWeight: "500",
                     }}
                   />
                 </Form.Group>
@@ -383,7 +383,7 @@ const Career = () => {
                   className="mb-4"
                   controlId="formFile"
                   style={{
-                    border: "2px dashed #ccc",
+                    border: "2px dashed #1287af",
                     borderRadius: "10px",
                     padding: "15px",
                     textAlign: "center",
@@ -398,7 +398,13 @@ const Career = () => {
                     }}
                   >
                     Drag & Drop Files Here or{" "}
-                    <span style={{ color: "#008cba", cursor: "pointer" }}>
+                    <span
+                      style={{
+                        color: "#008cba",
+                        cursor: "pointer",
+                        fontWeight: "500",
+                      }}
+                    >
                       Browse Files
                     </span>
                   </Form.Label>
@@ -408,25 +414,15 @@ const Career = () => {
                     aria-label="Upload File"
                   />
                 </Form.Group>
-                <Button
-                  variant="primary"
-                  className="w-100"
-                  style={{
-                    backgroundColor: "#008cba",
-                    borderColor: "#008cba",
-                    borderRadius: "5px",
-                    fontWeight: "bold",
-                    transition: "all 0.3s",
-                  }}
-                  onMouseOver={(e) =>
-                    (e.target.style.backgroundColor = "#006f9a")
-                  }
-                  onMouseOut={(e) =>
-                    (e.target.style.backgroundColor = "#008cba")
-                  }
-                >
-                  Apply Now →
-                </Button>
+                <div className="btn-on">
+                  <Button
+                    variant="link"
+                    className="apply-now-button d-inline-flex"
+                  >
+                    Apply Now
+                    <span className="ms-1 arrow-icon">↗</span>
+                  </Button>
+                </div>
               </Form>
             </div>
           </Col>
@@ -435,25 +431,27 @@ const Career = () => {
           <Col lg={6} md={8} sm={12}>
             <div
               style={{
-                background: "linear-gradient(135deg, #008cba, #006f9a)",
+                height: "260px",
+                backgroundImage: "url('/public/images/handshake.png')",
+                backgroundSize: "contain",
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center",
+                marginBottom: "20px",
+              }}
+            ></div>
+            <div
+              style={{
+                backgroundImage: "url('/public/images/bgimgg.png')",
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center",
+                borderRadius:"20px",
                 color: "#fff",
                 borderRadius: "10px",
                 padding: "30px",
                 textAlign: "center",
-                boxShadow: "0 8px 20px rgba(0, 0, 0, 0.1)",
               }}
             >
               {/* Replace this section with your image */}
-              <div
-                style={{
-                  height: "150px",
-                  backgroundImage: "url('/public/images/handshake.png')",
-                  backgroundSize: "contain",
-                  backgroundRepeat: "no-repeat",
-                  backgroundPosition: "center",
-                  marginBottom: "20px",
-                }}
-              ></div>
               <h4 style={{ fontWeight: "bold", marginBottom: "10px" }}>
                 Partner With Murait:
               </h4>
