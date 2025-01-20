@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rajdhani", serif;
+}
+
+.navbar {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: #fff;
+  border: 1.5px solid #333333;
+  border-radius: 10px;
+  box-shadow: 2px 3.5px 2px #333333;
+}
+
+.logo img {
+  width: 80px;
+  padding-left: 30px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 54px;
+  padding: 25px 0;
+}
+
+.nav-links li {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  transition: color 0.3s ease;
+  color: #000000;
+}
+
+.nav-links li:hover {
+  color: #007bff;
+}
+
+.get-in-touch {
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.get-in-touch-button {
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #0f76b9;
+  border: 2px solid #18aa9d;
+  box-shadow: 2px 2.5px 2px #333333;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.get-in-touch-button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .get-in-touch {
+    flex: 1;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 1200px) {
+  .nav-links {
+    display: none;
+  }
+}
