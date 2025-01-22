@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rajdhani", serif;
+}
+
+.text- {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: justify;
+  padding: 0px 10px;
+}
+
+.text-header {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: justify;
+  background: linear-gradient(
+    to right,
+    #18aa9d,
+    #1599a6,
+    #1287b0,
+    #0f76b9
+  ); /* Gradient colors */
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 1.5rem;
+}
+
+footer {
+  margin-top: 130px;
+}
+
+footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+.list-unstyled img {
+  width: 14px;
+  margin-right: 12px;
+}
+
+footer ul li {
+  margin-bottom: 16px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #212529;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+footer hr {
+  border-top: 2px solid #333333;
+}
+
+.text-copyright {
+  float: left;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #333333;
+}
+
+.text-other {
+  text-align: center;
+  /* justify-content: space-between; */
+  display: flex;
+  gap: 20px;
+  float: right;
+}
+
+.text-other a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+  line-height: 20px;
+}
+
+@media (max-width: 768px) {
+    .bg-img-footer{
+      display: none;
+    }
+}

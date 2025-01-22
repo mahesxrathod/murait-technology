@@ -147,7 +147,6 @@ body {
 
 /* ------------------- */
 
-
 /* Container styling */
 .navigation-container {
   display: flex;
@@ -237,17 +236,17 @@ body {
 /* ---------------LOG IN PAGE------------------- */
 
 .apply-now-button {
-  color: #1287af; /* Replace with your desired color */
+  color: #1287af;
   font-weight: bold;
-  font-size: 1.1rem; /* Adjust font size */
-  text-decoration: none; /* Prevent default underline */
+  font-size: 1.1rem;
+  text-decoration: none;
   border: none;
   padding: 0;
   position: relative;
   transition: color 0.3s ease;
 }
 
-.btn-on{
+.btn-on {
   text-align: center;
 }
 
@@ -255,28 +254,22 @@ body {
   content: "";
   display: block;
   width: 100%;
-  height: 2px; /* Thickness of the underline */
-  background: linear-gradient(
-    to right,
-    #18aa9d,
-    #1599a6,
-    #1287b0,
-    #0f76b9
-  ); /* Gradient color */
+  height: 2px;
+  background: linear-gradient(to right, #18aa9d, #1599a6, #1287b0, #0f76b9);
   position: absolute;
-  bottom: -3px; /* Position the underline slightly below the text */
+  bottom: -3px;
   left: 0;
 }
 
 .arrow-icon {
-  font-size: 1.2rem; /* Adjust arrow size */
+  font-size: 1.2rem;
   display: inline-flex;
   align-items: center;
 }
 
 @media (max-width: 576px) {
   .apply-now-button {
-    font-size: 0.9rem; /* Adjust for smaller screens */
+    font-size: 0.9rem;
   }
 
   .arrow-icon {

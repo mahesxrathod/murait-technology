@@ -7,8 +7,8 @@ import {
   Card,
   Col,
   Container,
-  Form,
   Row,
+  Form,
 } from "react-bootstrap";
 
 const Career = () => {
@@ -278,13 +278,13 @@ const Career = () => {
         className="p-4"
         style={{
           fontFamily: "'Rajdhani', serif",
-          backgroundColor: "#f8f9fa",
+          // backgroundColor: "#f8f9fa",
           minHeight: "100vh",
         }}
       >
-        <Row className="align-items-center justify-content-center">
+        <Row className=" justify-content-center">
           {/* Form Section */}
-          <Col lg={5} md={6} sm={12} className="mb-4 mt-4">
+          <Col lg={5} md={8} sm={12} className="mb-4 mt-4">
             <div
               style={{
                 background: "#ffffff",
@@ -349,6 +349,65 @@ const Career = () => {
                       fontWeight: "500",
                     }}
                   />
+                  <div
+                    style={{
+                      backgroundImage: "url('/public/images/bgimgg.png')",
+                      backgroundRepeat: "no-repeat",
+                      backgroundPosition: "center",
+                      borderRadius: "20px",
+                      color: "#fff",
+                      borderRadius: "10px",
+                      padding: "30px",
+                      textAlign: "center",
+                      width: "70%",
+                      height: "50%",
+                      zIndex: "-1",
+                      position: "absolute",
+                      right: "10px",
+                    }}
+                  >
+                    <div className="content">
+                      <h4
+                        style={{
+                          fontWeight: "700",
+                          fontSize: "30px",
+                          marginBottom: "10px",
+                          textAlign: "centerx",
+                        }}
+                      >
+                        Partner With Murait:
+                      </h4>
+                      <h4
+                        style={{
+                          fontWeight: "700",
+                          fontSize: "30px",
+                          marginBottom: "10px",
+                          textAlign: "center",
+                        }}
+                      >
+                        Your Success, Our Commitment
+                      </h4>
+
+                      <ul
+                        style={{
+                          listStyle: "none",
+                          lineHeight: "2",
+                          fontSize: "1rem",
+                          fontWeight: "500",
+                          listStyleType: "disc",
+                          display: "inline-block",
+                          textAlign: "left",
+                        }}
+                      >
+                        <li>Week Risk-Free Trial</li>
+                        <li>Strict NDA</li>
+                        <li>Daily Progress Reports</li>
+                        <li>Weekly Stakeholder Demos</li>
+                        <li>Expert Oversight</li>
+                        <li>On-Time, Every Time</li>
+                      </ul>
+                    </div>
+                  </div>
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formAppLink">
                   <Form.Label style={{ fontWeight: "600" }}>
@@ -365,6 +424,7 @@ const Career = () => {
                     }}
                   />
                 </Form.Group>
+
                 <Form.Group className="mb-3" controlId="formMessage">
                   <Form.Label style={{ fontWeight: "600" }}>Message</Form.Label>
                   <Form.Control
@@ -414,6 +474,7 @@ const Career = () => {
                     aria-label="Upload File"
                   />
                 </Form.Group>
+
                 <div className="btn-on">
                   <Button
                     variant="link"
@@ -436,51 +497,8 @@ const Career = () => {
                 backgroundSize: "contain",
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
-                marginBottom: "20px",
               }}
             ></div>
-            <div
-              style={{
-                backgroundImage: "url('/public/images/bgimgg.png')",
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "center",
-                borderRadius:"20px",
-                color: "#fff",
-                borderRadius: "10px",
-                padding: "30px",
-                textAlign: "center",
-              }}
-            >
-              {/* Replace this section with your image */}
-              <h4 style={{ fontWeight: "bold", marginBottom: "10px" }}>
-                Partner With Murait:
-              </h4>
-              <p
-                style={{
-                  fontSize: "1.1rem",
-                  marginBottom: "20px",
-                  fontWeight: "500",
-                }}
-              >
-                Your Success, Our Commitment
-              </p>
-              <ul
-                style={{
-                  listStyle: "none",
-                  padding: 0,
-                  lineHeight: "2",
-                  fontSize: "1rem",
-                  fontWeight: "500",
-                }}
-              >
-                <li>✓ Week Risk-Free Trial</li>
-                <li>✓ Strict NDA</li>
-                <li>✓ Daily Progress Reports</li>
-                <li>✓ Weekly Stakeholder Demos</li>
-                <li>✓ Expert Oversight</li>
-                <li>✓ On-Time, Every Time</li>
-              </ul>
-            </div>
           </Col>
         </Row>
       </Container>
