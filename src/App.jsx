@@ -6,13 +6,15 @@ import Navbar from "./components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Career from "./components/Career";
 import Footer from "./components/Footer";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Career />
-      <Footer />
+      {/* <Career /> */}
+      {/* <Footer /> */}
+      <Portfolio />
     </>
   );
 }
