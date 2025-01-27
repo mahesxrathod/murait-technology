@@ -1,5 +1,3 @@
-murait-technology-bbjgss1pt-mahesxrathods-projects.vercel.app
+## Murait Technology
 
-this is live server link tap on it.
-
-# React + Vite
+A React application designed to showcase career opportunities and professional information. The application features a responsive navigation bar, a dedicated career section, and a footer for additional information. Built with React and Vite, it leverages Bootstrap for styling to ensure a modern and user-friendly interface.
