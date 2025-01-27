@@ -367,7 +367,7 @@ const Career = () => {
                     />
                     <div
                       style={{
-                        backgroundImage: "url('/public/images/bgimgg.png')",
+                        backgroundImage: "url('/images/bgimgg.png')",
                         backgroundRepeat: "no-repeat",
                         backgroundPosition: "center",
                         borderRadius: "20px",
@@ -511,7 +511,7 @@ const Career = () => {
               <div
                 style={{
                   height: "260px",
-                  backgroundImage: "url('/public/images/handshake.png')",
+                  backgroundImage: "url('/images/handshake.png')",
                   backgroundSize: "contain",
                   backgroundRepeat: "no-repeat",
                   backgroundPosition: "center",

@@ -117,7 +117,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="bg-img-footer"  style={{
-                      backgroundImage: "url('/public/images/footerbg.png')",
+                      backgroundImage: "url('/images/footerbg.png')",
                       backgroundRepeat: "no-repeat",
                       backgroundPosition: "center",
                       color: "#fff",
