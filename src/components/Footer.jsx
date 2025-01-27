@@ -4,7 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <footer className=" ">
+    <footer>
       <div className="container mt-5">
         <div className="row text-center text-md-start">
           {/* Logo and Description */}
