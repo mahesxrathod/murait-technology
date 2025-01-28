@@ -7,6 +7,9 @@ body {
   width: 100%;
   align-items: center;
 }
+.hero-font {
+  display: inline;
+}
 
 .hero-font h1 {
   font-size: 70px;
@@ -15,13 +18,11 @@ body {
   font-weight: 600;
   line-height: 100px;
   font-family: "Rajdhani", serif;
-  /* text-align: center; */
+  text-align: center;
 }
 
 .hero-font img {
   width: 180px;
-  /* margin-bottom: 20px; */
-  /* text-align: center; */
 }
 
 /* media queries on 575 */

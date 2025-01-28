@@ -15,7 +15,7 @@ const Navbar = () => {
           <li>Work</li>
           <li>About</li>
           <li>Career</li>
-          <li> Portfolio</li>
+          <li>Portfolio</li>
           <li>Contact</li>
         </ul>
         <div className="get-in-touch">
@@ -30,11 +30,7 @@ const Navbar = () => {
         </div>
       </nav>
     </Container>
-
-    
   );
 };
 
 export default Navbar;
-
-

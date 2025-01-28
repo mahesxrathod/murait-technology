@@ -116,17 +116,21 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="bg-img-footer"  style={{
-                      backgroundImage: "url('/images/footerbg.png')",
-                      backgroundRepeat: "no-repeat",
-                      backgroundPosition: "center",
-                      color: "#fff",
-                      textAlign: "center",
-                      width: "70%",
-                      height: "50%",
-                      zIndex: "-1",
-                      position: "absolute",
-                      right: "10px",}}></div>
+          <div
+            className="bg-img-footer"
+            style={{
+              backgroundImage: "url('/images/footerbg.png')",
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
+              color: "#fff",
+              textAlign: "center",
+              width: "70%",
+              height: "50%",
+              zIndex: "-1",
+              position: "absolute",
+              right: "10px",
+            }}
+          ></div>
         </div>
       </div>
       <div>
@@ -143,12 +147,8 @@ const Footer = () => {
           <a href="#">Contact Us</a>
         </div>
       </div>
-      
     </footer>
-    
   );
 };
 
 export default Footer;
-
-

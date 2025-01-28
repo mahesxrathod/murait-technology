@@ -90,7 +90,7 @@ footer hr {
 }
 
 @media (max-width: 768px) {
-    .bg-img-footer{
-      display: none;
-    }
+  .bg-img-footer {
+    display: none;
+  }
 }
