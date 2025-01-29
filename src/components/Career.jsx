@@ -267,13 +267,13 @@ const Career = () => {
                     </div>
                     <div className="d-flex gap-3 align-items-center mb-2 font-ss">
                       <img
-                        style={{ width: 20 }}
+                        style={{ width: "20px" }}
                         src="images/Frame (1).png"
                         alt=""
                       />{" "}
                       <span>{card.team}</span>
                     </div>
-                    <div className="d-flex gap-3 align-items-center font-ss">
+                    <div className="d-flex align-items-center font-ss">
                       <img
                         style={{ width: 20 }}
                         src="images/Frame (2).png"
